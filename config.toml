@@ -1,4 +1,4 @@
-enable-module-update = true # set this to false if you do not want to receive updates for the module
+enable-module-update = true
 parallel-jobs = 1
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
@@ -40,37 +40,75 @@ arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-<<<<<<< HEAD
 excluded-patches = "'Custom branding' 'Enable debugging'"
 patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#181825"
-=======
 
-[Reddit-Morphe]
-app-name = "Reddit"
-rv-brand = "Morphe"
+[Cloudflare-1111]
+app-name = "1.1.1.1"
 build-mode = "apk"
-patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
-uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
-dpi = "120-640dpi"
+patches-source = "rushiranpise/morphe-patches"
+version = "6.38.8"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/cloudflare/1-1-1-1-faster-safer-internet/"
 
-[Twitter]
-enabled = false
-patches-source = "crimera/piko"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Piko"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-build-mode = "module"
-version = "11.81.0-release.0"
-include-stock = "split"
->>>>>>> upstream
+[BlockBlast]
+app-name = "Block Blast!"
+build-mode = "apk"
+patches-source = "rushiranpise/morphe-patches"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/hungrystudio/block-blast-puzzle-games/"
 
-[GooglePhotos]
-build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+[Boorusama]
+app-name = "Boorusama"
+build-mode = "apk"
+patches-source = "kiraio-moe/Lain-Patches"
+version = "auto"
+uptodown-dlurl = "https://boorusama.en.uptodown.com/android"
+
+[Canva]
+app-name = "Canva"
+build-mode = "apk"
+patches-source = "rushiranpise/morphe-patches"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/canva/canva-free-photo-editor-graphic-design-tool/"
+
+[Word]
+app-name = "Word"
+build-mode = "apk"
+patches-source = "rushiranpise/morphe-patches"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/microsoft-corporation/word/"
+
+[MobiOffice]
+app-name = "MobiOffice- Word, Excel, Slide"
+build-mode = "apk"
+patches-source = "rushiranpise/morphe-patches"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/mobisystems/officesuite/"
+
+[PlantsVsZombies]
+app-name = "Plants vs. Zombies FREE"
+build-mode = "apk"
+patches-source = "MiguelNinja19/miguel-morphe-patches"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/electronic-arts/plants-vs-zombies-free/"
+
+[SDMaidSE]
+app-name = "SD Maid SE"
+build-mode = "apk"
+patches-source = "rushiranpise/morphe-patches"
+version = "1.7.5-rc0"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/darken/sd-maid-2-se-system-cleaner/"
+
+[TeraBox]
+app-name = "TeraBox"
+build-mode = "apk"
+patches-source = "rushiranpise/morphe-patches"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/flextech-inc/terabox-cloud-storage-cloud-backup-data-backup/"
+
+[Vpnify]
+app-name = "vpnify"
+build-mode = "apk"
+patches-source = "BholeyKaBhakt/android-patches-xtra"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/vpnify/vpnify-unlimited-vpn-proxy/"
+
