@@ -1,6 +1,13 @@
+BlockBlast: 10.4.3  
 Boorusama: 4.5.1  
+Cloudflare-1111: 6.38.8  
+MobiOffice: 16.4.60095  
 Music (arm64-v8a): 9.15.51  
 Music (arm-v7a): 9.15.51  
+PlantsVsZombies: 3.16.0  
+SDMaidSE: 1.7.5-rc0  
+Vpnify: 2.2.9  
+Word: 16.0.20131.20080  
 YouTube: 21.04.223  
 YouTube-Oreo: 20.26.46  
 
