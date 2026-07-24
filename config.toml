@@ -47,6 +47,7 @@ patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#181825"
 app-name = "1.1.1.1"
 build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
 version = "6.38.8"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/cloudflare/1-1-1-1-faster-safer-internet/"
 
@@ -54,6 +55,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/cloudflare/1-1-1-1-faster-safer
 app-name = "Block Blast!"
 build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/hungrystudio/block-blast-puzzle-games/"
 
@@ -61,6 +63,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/hungrystudio/block-blast-puzzle
 app-name = "Boorusama"
 build-mode = "apk"
 patches-source = "kiraio-moe/Lain-Patches"
+cli-source = "MorpheApp/morphe-cli"
 version = "auto"
 uptodown-dlurl = "https://boorusama.en.uptodown.com/android"
 
@@ -68,6 +71,7 @@ uptodown-dlurl = "https://boorusama.en.uptodown.com/android"
 app-name = "Canva"
 build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/canva/canva-free-photo-editor-graphic-design-tool/"
 
@@ -75,6 +79,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/canva/canva-free-photo-editor-g
 app-name = "Word"
 build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/microsoft-corporation/word/"
 
@@ -82,6 +87,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/microsoft-corporation/word/"
 app-name = "MobiOffice- Word, Excel, Slide"
 build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/mobisystems/officesuite/"
 
@@ -89,6 +95,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/mobisystems/officesuite/"
 app-name = "Plants vs. Zombies FREE"
 build-mode = "apk"
 patches-source = "MiguelNinja19/miguel-morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/electronic-arts/plants-vs-zombies-free/"
 
@@ -96,6 +103,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/electronic-arts/plants-vs-zombi
 app-name = "SD Maid SE"
 build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
 version = "1.7.5-rc0"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/darken/sd-maid-2-se-system-cleaner/"
 
@@ -103,6 +111,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/darken/sd-maid-2-se-system-clea
 app-name = "TeraBox"
 build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/flextech-inc/terabox-cloud-storage-cloud-backup-data-backup/"
 
@@ -110,5 +119,5 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/flextech-inc/terabox-cloud-stor
 app-name = "vpnify"
 build-mode = "apk"
 patches-source = "BholeyKaBhakt/android-patches-xtra"
+cli-source = "MorpheApp/morphe-cli"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/vpnify/vpnify-unlimited-vpn-proxy/"
-
