@@ -1,13 +1,5 @@
-BlockBlast: 10.4.3  
-Boorusama: 4.5.1  
-Cloudflare-1111: 6.38.8  
-MobiOffice: 16.4.60095  
 Music (arm64-v8a): 9.15.51  
 Music (arm-v7a): 9.15.51  
-PlantsVsZombies: 3.16.0  
-SDMaidSE: 1.7.5-rc0  
-Vpnify: 2.2.9  
-Word: 16.0.20131.20080  
 YouTube: 21.04.223  
 YouTube-Oreo: 20.26.46  
 
@@ -16,19 +8,13 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-Patches: BholeyKaBhakt/patches-2.12.0.mpp  
-[Changelog](https://github.com/BholeyKaBhakt/android-patches-xtra/releases/tag/v2.12.0)
-
-Patches: kiraio-moe/patches-1.3.0.mpp  
-[Changelog](https://github.com/kiraio-moe/Lain-Patches/releases/tag/v1.3.0)
-
-Patches: MiguelNinja19/patches-1.12.2.mpp  
-[Changelog](https://github.com/MiguelNinja19/miguel-morphe-patches/releases/tag/v1.12.2)
-
-Patches: MorpheApp/patches-1.36.0.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.36.0)
-
-Patches: rushiranpise/patches-1.15.1.mpp  
-[Changelog](https://github.com/rushiranpise/morphe-patches/releases/tag/v1.15.1)
+Patches: MorpheApp/patches-1.37.0.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.37.0)
 
 CLI: MorpheApp/morphe-desktop-1.12.0-all.jar    
+
+Skipped:  
+Patches: rushiranpise/patches-1.15.1.mpp  
+Patches: kiraio-moe/patches-1.3.0.mpp  
+Patches: MiguelNinja19/patches-1.12.2.mpp  
+Patches: BholeyKaBhakt/patches-2.12.0.mpp    
