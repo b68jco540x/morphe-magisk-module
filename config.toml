@@ -6,8 +6,12 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
+<<<<<<< HEAD
 
 [YouTube]
+=======
+[YouTube-Morphe]
+>>>>>>> upstream
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -31,7 +35,11 @@ version = "20.26.46"
 excluded-patches = "'Custom branding' 'Enable debugging'"
 patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#181825"
 
+<<<<<<< HEAD
 [Music]
+=======
+[Music-Morphe]
+>>>>>>> upstream
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -43,24 +51,61 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 excluded-patches = "'Custom branding' 'Enable debugging'"
 patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#181825"
 
+<<<<<<< HEAD
 [Cloudflare-1111]
 app-name = "1.1.1.1"
 build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
+=======
+[Reddit-Morphe]
+app-name = "Reddit"
+rv-brand = "Morphe"
+build-mode = "both"
+patches-source = "MorpheApp/morphe-patches"
+>>>>>>> upstream
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
 version = "6.38.8"
 uptodown-dlurl = "https://1-1-1-1.en.uptodown.com/android"
 
+<<<<<<< HEAD
 [BlockBlast]
 app-name = "Block Blast!"
 build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
+=======
+[GooglePhotos]
+build-mode = "both"
+patches-source = "RookieEnough/De-Vanced"
+cli-source = "MorpheApp/morphe-cli"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+
+[Music]
+enabled = false
+build-mode = "both"
+arch = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+
+[YouTube]
+enabled = false
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Twitter]
+enabled = false
+patches-source = "crimera/piko"
+>>>>>>> upstream
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
 version = "10.4.3"
 uptodown-dlurl = "https://block-blast-adventure-master.en.uptodown.com/android"
 
+<<<<<<< HEAD
 [Boorusama]
 app-name = "Boorusama"
 build-mode = "apk"
@@ -131,3 +176,9 @@ patches-source = "BholeyKaBhakt/android-patches-xtra"
 rv-brand = "BholeyKaBhakt"
 cli-source = "MorpheApp/morphe-cli"
 uptodown-dlurl = "https://vpnify.en.uptodown.com/android"
+=======
+[Twitch]
+enabled = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
+uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+>>>>>>> upstream
