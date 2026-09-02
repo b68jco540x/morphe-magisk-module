@@ -43,21 +43,13 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 excluded-patches = "'Custom branding' 'Enable debugging'"
 patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#181825"
 
-<<<<<<< HEAD
 [Cloudflare-1111]
 app-name = "1.1.1.1"
 build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
-=======
-[Reddit-Morphe]
-app-name = "Reddit"
-rv-brand = "Morphe"
-build-mode = "both"
-patches-source = "MorpheApp/morphe-patches"
->>>>>>> c216b04 (Update config.toml)
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
-version = "6.38.8"
+version = "auto"
 uptodown-dlurl = "https://1-1-1-1.en.uptodown.com/android"
 
 [BlockBlast]
@@ -66,7 +58,7 @@ build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
-version = "10.4.3"
+version = "auto"
 uptodown-dlurl = "https://block-blast-adventure-master.en.uptodown.com/android"
 
 [Boorusama]
@@ -75,7 +67,7 @@ build-mode = "apk"
 patches-source = "kiraio-moe/Lain-Patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Lain"
-version = "4.5.1"
+version = "auto"
 uptodown-dlurl = "https://boorusama.en.uptodown.com/android"
 
 [Canva]
@@ -84,7 +76,7 @@ build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
-version = "2.369.0"
+version = "auto"
 uptodown-dlurl = "https://canva.en.uptodown.com/android"
 
 [Word]
@@ -93,7 +85,7 @@ build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
-version = "16.0.20131.20080"
+version = "auto"
 uptodown-dlurl = "https://microsoft-word-preview.en.uptodown.com/android"
 
 [MobiOffice]
@@ -102,7 +94,7 @@ build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
-version = "16.4.60095"
+version = "auto"
 uptodown-dlurl = "https://officesuite-pro-7.en.uptodown.com/android"
 
 [PlantsVsZombies]
@@ -111,7 +103,7 @@ build-mode = "apk"
 patches-source = "MiguelNinja19/miguel-morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "MiguelNinja19"
-version = "3.16.0"
+version = "auto"
 uptodown-dlurl = "https://plants-vs-zombies-free.en.uptodown.com/android"
 
 [SDMaidSE]
@@ -120,7 +112,7 @@ build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
-version = "1.7.5-rc0"
+version = "auto"
 uptodown-dlurl = "https://sd-maid-se.en.uptodown.com/android"
 
 [TeraBox]
@@ -129,7 +121,7 @@ build-mode = "apk"
 patches-source = "rushiranpise/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
-version = "4.20.1"
+version = "auto"
 uptodown-dlurl = "https://terabox.en.uptodown.com/android"
 
 [Vpnify]
