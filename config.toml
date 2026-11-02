@@ -16,7 +16,6 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 excluded-patches = "'Custom branding' 'Enable debugging'"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#181825"
 enable-update-checks = false
 
 [YouTube-Oreo]
@@ -29,7 +28,6 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 version = "20.26.46"
 excluded-patches = "'Custom branding' 'Enable debugging'"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#181825"
 enable-update-checks = false
 
 [Music]
@@ -41,5 +39,12 @@ arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 excluded-patches = "'Custom branding' 'Enable debugging'"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#181825"
+enable-update-checks = false
+
+[Chess]
+app-name = "Chess"
+patches-source = "quwi26/Quwis-Patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Quwis"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/chess-com/chess-play-learn/"
 enable-update-checks = false
