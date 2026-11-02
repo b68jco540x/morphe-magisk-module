@@ -49,5 +49,5 @@ patches-source = "quwi26/Quwis-Patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Quwis"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/chess-com/chess-play-learn/"
-uptodown-dlurl = ""https://chess-play-and-learn.en.uptodown.com/android”
+uptodown-dlurl = "https://chess-play-and-learn.en.uptodown.com/android"
 enable-update-checks = false
