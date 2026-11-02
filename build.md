@@ -9,4 +9,7 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 Patches: MorpheApp/morphe-patches/patches-2.0.0.mpp  
 [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v2.0.0)
 
+Patches: quwi26/Quwis-Patches/patches-1.9.4.mpp  
+[Changelog](https://github.com/quwi26/Quwis-Patches/releases/tag/v1.9.4)
+
 CLI: MorpheApp/morphe-cli/morphe-desktop-1.20.0-all.jar    
