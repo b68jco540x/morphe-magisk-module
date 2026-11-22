@@ -44,7 +44,7 @@ enable-update-checks = false
 [Chess]
 app-name = "Chess"
 pkg-name = "com.chess"
-version = "4.10.23"
+version = "auto"
 patches-source = "quwi26/Quwis-Patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Quwis"
