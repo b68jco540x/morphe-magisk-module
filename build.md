@@ -1,14 +1,14 @@
-Chess: 4.10.28-googleplay  
+Chess: 4.10.29-googleplay  
 
 Install [Microg](https://github.com/MorpheApp/MicroG-RE/) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music modules from Play Store  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-Patches: quwi26/Quwis-Patches/patches-1.14.2.mpp  
-[Changelog](https://github.com/quwi26/Quwis-Patches/releases/tag/v1.14.2)
+Patches: quwi26/Quwis-Patches/patches-1.16.1.mpp  
+[Changelog](https://github.com/quwi26/Quwis-Patches/releases/tag/v1.16.1)
 
 CLI: MorpheApp/morphe-cli/morphe-desktop-2.3.0-all.jar    
 
 Skipped:  
-Patches: MorpheApp/morphe-patches/patches-2.3.0.mpp        
+Patches: MorpheApp/morphe-patches/patches-2.3.0.mpp          
